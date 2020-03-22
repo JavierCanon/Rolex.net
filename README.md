@@ -1,91 +1,95 @@
-#PHP-RBAC v2.x
+﻿# Rolex.net
 
-PHP-RBAC is an authorization library for PHP. It provides developers with NIST Level 2 Hierarchical Role Based Access Control and more, in the fastest implementation yet.
+Is an authorization library for .net 
+It provides developers with NIST Level 2 Hierarchical Role Based Access Control and more.
 
-**Current Stable Release:** [PHP-RBAC v2.0](https://sourceforge.net/projects/phprbac/files/latest/download?source=dlp)
+## What does it Do? 
 
-##Connect With Us
-
-* Home Page: [http://phprbac.net/](http://phprbac.net/)
-* OWASP Project Page: [https://www.owasp.org/index.php/Phprbac](https://www.owasp.org/index.php/Phprbac)
-* PHP-RBAC Documentation: [http://phprbac.net/docs_contents.php](http://phprbac.net/docs_contents.php)
-* PHP-RBAC Wiki: [https://github.com/OWASP/rbac/wiki](https://github.com/OWASP/rbac/wiki)
-* PHP-RBAC API: [http://phprbac.net/api.php](http://phprbac.net/api.php)
-* Issue Tracker: [https://github.com/OWASP/rbac/issues?state=open](https://github.com/OWASP/rbac/issues?state=open)
-* Mailing List: [https://lists.owasp.org/mailman/listinfo/owasp_phprbac](https://lists.owasp.org/mailman/listinfo/owasp_phprbac)
-
-##What is an Rbac System?
+**What is an Rbac System?:**
 
 Take a look at the "[Before You Begin](http://phprbac.net/docs_before_you_begin.php)" section of our [Documentation](http://phprbac.net/docs_contents.php) to learn what an RBAC system is and what PHP-RBAC has to offer you and your project.
 
-##NIST Level 2 Compliance
+## NIST Level 2 Compliance
 
 For information regarding NIST RBAC Levels, please see [This Paper](http://csrc.nist.gov/rbac/sandhu-ferraiolo-kuhn-00.pdf).
 
 For more great resources see the [NIST RBAC Group Page](http://csrc.nist.gov/groups/SNS/rbac/).
 
-##Installation
 
-You can now use [Composer](https://getcomposer.org/) to install the PHP-RBAC code base.
+### Screenshots
 
-For Installation Instructions please refer to the "[Getting Started](http://phprbac.net/docs_getting_started.php)" section of our [Documentation](http://phprbac.net/docs_contents.php).
+![](docs/img/screenshoot1.png?raw=true)
 
-##Usage##
 
-**Instantiating a PHP-RBAC Object**
-    
-With a 'use' statement:
+## Philosophy of Javier Cañon
+* KISS by design and programming. An acronym for "keep it simple, stupid" or "keep it stupid simple", is a design principle. The KISS principle states that most systems work best if they are kept simple rather than made complicated; therefore, simplicity should be a key goal in design, and unnecessary complexity should be avoided. Variations on the phrase include: "Keep it simple, silly", "keep it short and simple", "keep it simple and straightforward", "keep it small and simple", or "keep it stupid simple".
 
-        use PhpRbac;
-        
-        $rbac = new Rbac();
+* Select the best tools for the job, use tools that take less time to finish the job.
+* Productivity over complexity and avoid unnecessary complexity for elegant or beauty code.
 
-Without a 'use' statement, outside of a namespace:
-        
-        $rbac = new PhpRbac\Rbac();
+* Computers are machines, more powerful every year, give them hard work, concentrate on being productive.
 
-Without a 'use' statement, inside of another namespace (notice the leading backslash):
-        
-        $rbac = new \PhpRbac\Rbac();
 
-##PHP-RBAC and PSR
+## Community ##
 
-PHP-RBAC's Public API is now fully PSR-0, PSR-1 and PSR-2 compliant.
+* Website, videos, photos, docs, etc. ()
+* [Group](https://www.facebook.com/groups/socialoffice/)
+* [Wiki](https://github.com/JavierCanon/Social-Office-Webakeitor/wiki)
 
-You can now:
+## Issues and Bug Traking ##
+Please submit *bug reports* or *feature requests* on GitHub:
+* [Issue | Request Features](https://github.com/JavierCanon/Social-Office-Webakeitor/issues)
 
-* Use Composer to install/update PHP-RBAC
-* Use any PSR-0 compliant autoloader with PHP-RBAC
-* Use the included autoloader to load PHP-RBAC
+## Requeriments ##
 
-**If you notice any conflicts with PSR compliance please [Submit an Issue](https://github.com/OWASP/rbac/issues/new).**
+* Windows 8.1, 10.
+* .Net Framework 4.8.
 
-##The future of PHP-RBAC
+## Install 
 
-We are in the process of refactoring the PHP-RBAC internals. We have two goals in mind while doing this:
+* [Download Last Build](https://github.com/JavierCanon/Social-Office-Webakeitor/releases)
+* [Old Installers](https://github.com/JavierCanon/Social-Office-Webakeitor/releases)
 
-* To meet modern PHP OOP "Best Practices"
-* To meet PHP-FIG PSR compliance: http://www.php-fig.org/
+## Development Dependencies and Licenses Requirements ##
 
-With a PSR compliant Public API already in place we can continue to work towards our goals one piece at a 
-time without altering the Public API that developers are working with and rely on, making the transition as seamless 
-and invisible as possible.
+* Microsoft Windows 8.1, 10.
+* Microsoft .Net Framework Target 4.8
 
-##Contributing##
+## Contributing
 
-We welcome all contributions that will help make PHP-RBAC even better tomorrow than it is today!
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-Please visit the [PHP-RBAC Wiki](https://github.com/OWASP/rbac/wiki) to learn about our development process and workflow.
 
-###How You Can Help
+## Versioning
 
-* Report Bugs, Enhancement Requests or Documentation errors using our [Issue Tracker](https://github.com/OWASP/rbac/issues?state=open)
-* [Choose a Bug](https://github.com/OWASP/rbac/issues?state=open) to work on and submit a Pull Request
-* Make helpful suggestions and contributions to the [Documentation](http://phprbac.net/docs_contents.php) using our [Issue Tracker](https://github.com/OWASP/rbac/issues?state=open)
-* Spread the word about PHP-RBAC by:
-    * Creating Tutorials
-    * Blogging
-    * [Tweeting](https://twitter.com/)
-    * [Facebooking](https://www.facebook.com/)
-    * [Google+ing](https://plus.google.com/)
-    * Talking to friends and colleagues about us
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Javier Cañon** - *Initial work* - [www.JavierCanon.com](https://www.javiercanon.com)
+
+See also the list of [contributors](/AUTHORS.md) who participated in this project.
+
+
+## Supported by, thanks to 
+
+
+![Caphyon](https://raw.githubusercontent.com/JavierCanon/Social-Office-Browser/master/docs/img/advanced-installer-iconNavLogo.png)
+
+[Caphyon Advanced Installer](https://www.advancedinstaller.com) 
+-- 
+
+![Softcanon](https://github.com/JavierCanon/Social-Office-Webackeitor/raw/master/docs/images/logo_softcanon_200x75.gif) 
+
+[Softcanon](https://www.softcanon.com) 
+-- 
+
+* [SQL Pretty Printer for SQL Server](http://www.dpriver.com/products/sqlpp/index.php) 
+-- 
+
+## License
+
+This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 - see the [LICENSE.md](/LICENSE.md) file for details.
+
+---
+Made with ❤️ by **[Javier Cañon](https://www.javiercanon.com)**.
